@@ -1,0 +1,58 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+BorderPane{
+	-fx-background-color:black;
+}
+
+.button{
+	-fx-background-radius:0;
+	-fx-pref-height:100px;
+	-fx-pref-width:100px;
+	-fx-background-color:black;
+	-fx-font-weight:bold;
+	
+}
+
+.controls{
+	-fx-pref-height:40px;
+	-fx-pref-width:80px;
+	
+	
+	-fx-border-width:2px;
+	-fx-text-fill:#39FF14;
+	-fx-background-color:gray;
+	
+}
+.top{
+	-fx-padding:20px 0 0 20px;
+}
+.top-right{
+	-fx-padding:20px 40px 0px 40px;
+}
+.bottom{
+	-fx-padding:20px 0 20px 45px;
+}
+.score{
+	-fx-font-size:25px;
+	-fx-fill:#39FF14;
+	-fx-font-weight:bold;
+	
+}
+
+.smallFont{
+	-fx-font-size:18px;
+}
+
+.colorOrange{
+	-fx-fill:orange;
+}
+
+#wordBox{
+	-fx-pref-height:50%;
+	-fx-pref-width:80px;
+}
+.leftBorder{
+	-fx-border-style:none none none solid;
+	-fx-border-color:gray;
+	
+}
